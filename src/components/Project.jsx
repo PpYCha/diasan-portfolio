@@ -18,21 +18,21 @@ const Project = () => {
         <ul>
           <CardProject
             title="Provincial Legal Office System"
-            description="Developed a workflow and task management system for the Provincial Legal Office."
+            description="Developed a workflow and task management system for the Provincial Legal Office to streamline case tracking, task assignments, and document management. Built as a modern web application to improve operational efficiency and collaboration among staff."
             image={ploImage}
             link="https://plo.northern-samar.com/"
           />
 
           <CardProject
             title="Centralized Indexing Management System"
-            description="Developed a system to index and manage financial records."
+            description="A centralized system for indexing and managing financial, enabling efficient document retrieval, tracking, and organization across departments."
             image={cimsImage}
             link="https://cims.northern-samar.com/"
           />
 
           <CardProject
             title="IT Services Online Request System"
-            description="Developed a ticketing system that allows users to create service requests."
+            description="Built an online service request and ticketing system that allows employees to submit IT support requests, track ticket status, and manage issue resolution through a centralized dashboard."
             image={misoImage}
             link="https://pgnsmisoservice.northern-samar.com/"
           />
