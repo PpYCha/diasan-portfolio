@@ -34,7 +34,7 @@ const Experience = () => {
               "Git",
               "Github",
             ]}
-            link="https://www.facebook.com/NorthernSamarPIO"
+            link="https://northernsamar.gov.ph/"
           />
           <CardExperience
             inclusiveDates="2019 - 2019"
@@ -61,7 +61,7 @@ const Experience = () => {
         </ol>
         <div className="mt-12">
           <Link
-            className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
+            className="group inline-flex items-center font-medium font-semibold leading-tight text-slate-200 text-slate-200"
             aria-label="View Full Résumé"
             to={"arhcive"}
           >

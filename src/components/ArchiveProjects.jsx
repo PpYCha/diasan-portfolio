@@ -3,16 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 import ArchiveRow from "./ArchiveRow";
 
 const ArchiveProjects = () => {
-  const navigate = useNavigate();
   return (
     <div className=" relative">
-      {/* <div
-        className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
-        style={{
-          background:
-            "radial-gradient(600px at 1894px 263px, rgba(29, 78, 216, 0.15), transparent 80%)",
-        }}
-      ></div> */}
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <a
           href="#content"
@@ -68,76 +60,77 @@ const ArchiveProjects = () => {
             </thead>
             <tbody>
               <ArchiveRow
+                year="2024"
+                project="Centralized Indexing Management System"
+                madeAt="Province of Northern Samar"
+                builtWith={["React", "Tailwind CSS", "Laravel", "MySQL"]}
+                about="A system to manage and centralize all records for easier tracking and reporting."
+              />
+              <ArchiveRow
+                year="2024"
+                project="Service Ticketing System"
+                madeAt="Province of Northern Samar"
+                builtWith={["React", "Tailwind CSS", "Laravel", "MySQL"]}
+                about="Tracks service requests from submission to completion for government services."
+              />
+              <ArchiveRow
                 year="2023"
                 project="Pageant Scoring System"
                 madeAt="Province of Northern Samar"
-                builtWith={["React", "Mui", "Laravel"]}
-                link=""
-                linkName=""
+                builtWith={["React", "MUI", "Laravel", "MySQL"]}
+                about="Computes and ranks contestants’ scores from various pageant categories."
               />
               <ArchiveRow
                 year="2023"
                 project="Provincial Engineering Office Information System"
                 madeAt="Province of Northern Samar"
-                builtWith={["React", "Mui", "Laravel"]}
-                link=""
-                linkName=""
+                builtWith={["React", "MUI", "Laravel", "MySQL"]}
+                about="Manages engineering office records, projects, and reports efficiently."
               />
               <ArchiveRow
                 year="2022"
                 project="Faculty Workload Equivalent"
-                madeAt=""
-                builtWith={["React", "Mui", "Laravel"]}
-                link=""
-                linkName=""
+                builtWith={["React", "MUI", "Laravel", "MySQL"]}
+                about="Calculates and manages faculty workloads across departments."
               />
               <ArchiveRow
                 year="2022"
                 project="Point of Sale and Inventory for a Water Station"
-                madeAt=""
-                builtWith={["React", "Mui", "Firebase"]}
-                link=""
-                linkName="https://pos-inventory-water-station.vercel.app/"
+                builtWith={["React", "MUI", "Firebase"]}
+                link="https://pos-inventory-water-station.vercel.app/"
+                linkName="Visit App"
+                about="An online POS system to track sales and inventory for a water station."
               />
               <ArchiveRow
                 year="2021"
                 project="Returning Residents of Northern Samar"
                 madeAt="Province of Northern Samar"
-                builtWith={["HTML", "CSS", "PHP", "MySql"]}
-                link=""
-                linkName=""
+                builtWith={["HTML", "CSS", "JavaScript", "PHP", "MySQL"]}
+                link="https://github.com/PpYCha/BalikNorthernSamar"
+                linkName="Github View"
+                about="Manages and tracks data of returning residents of Northern Samar."
               />
               <ArchiveRow
                 year="2020"
                 project="Service Request Information System"
                 madeAt="Province of Northern Samar"
-                builtWith={["C#", "MsSql"]}
-                link=""
-                linkName=""
-              />
-              <ArchiveRow
-                year="2020"
-                project="Sangguniang Panlalawigan Legislative Information System"
-                madeAt="Province of Northern Samar"
-                builtWith={["C#", "MsSql"]}
-                link=""
-                linkName=""
+                builtWith={["C#", "MsSQL"]}
+                about="A desktop app to record and track service requests for government offices."
               />
               <ArchiveRow
                 year="2018"
                 project="Research Recording System"
-                madeAt=""
-                builtWith={["C#", "MsSql"]}
-                link=""
-                linkName=""
+                builtWith={["C#", "MsSQL"]}
+                link="https://github.com/PpYCha/Research-Recording-System"
+                linkName="Github View"
+                about="Helps researchers store, manage, and access research data efficiently."
               />
               <ArchiveRow
                 year="2017"
                 project="Air Quality Index Measurement Using Drone, Database Management And Reporting System"
                 madeAt="Univeristy of Eastern Philippines"
-                builtWith={["Vb.net", "MsSql"]}
-                link=""
-                linkName=""
+                builtWith={["Vb.net", "MsSQL"]}
+                about="Collects AQI data via drone, stores it, and generates reports."
               />
             </tbody>
           </table>

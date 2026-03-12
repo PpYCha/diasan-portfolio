@@ -9,11 +9,11 @@ const Header = () => {
           <a href="/">Diasan Diaz</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Programmer at Province of Northern Samar
+          Computer Programmer at Province of Northern Samar
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I build accessible, inclusive products and digital experiences for the
-          web.
+          I design and develop efficient, user-friendly, and accessible web
+          applications that help improve digital services and experiences.
         </p>
         <Nav />
       </div>
@@ -82,4 +82,3 @@ const Header = () => {
 };
 
 export default Header;
-
