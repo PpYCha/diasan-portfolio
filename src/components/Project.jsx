@@ -1,7 +1,8 @@
-import React from "react";
 import CardProject from "./CardProject";
 import { Link } from "react-router-dom";
-
+import cimsImage from "../assets/cims.png";
+import ploImage from "../assets/plo.png";
+import misoImage from "../assets/miso.png";
 const Project = () => {
   return (
     <section
@@ -15,14 +16,31 @@ const Project = () => {
       </div>
       <div>
         <ul>
-          <CardProject />
-          <CardProject />
-          <CardProject />
+          <CardProject
+            title="Provincial Legal Office System"
+            description="Developed a workflow and task management system for the Provincial Legal Office."
+            image={ploImage}
+            link="https://plo.northern-samar.com/"
+          />
+
+          <CardProject
+            title="Centralized Indexing Management System"
+            description="Developed a system to index and manage financial records."
+            image={cimsImage}
+            link="https://cims.northern-samar.com/"
+          />
+
+          <CardProject
+            title="IT Services Online Request System"
+            description="Developed a ticketing system that allows users to create service requests."
+            image={misoImage}
+            link="https://pgnsmisoservice.northern-samar.com/"
+          />
         </ul>
 
         <div className="mt-12">
           <Link
-            className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
+            className="group inline-flex items-center font-medium leading-tight  text-slate-200"
             aria-label="View Full Project Archive"
             to={"/archive"}
           >

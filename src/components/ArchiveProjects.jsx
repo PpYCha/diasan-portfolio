@@ -60,25 +60,38 @@ const ArchiveProjects = () => {
             </thead>
             <tbody>
               <ArchiveRow
-                year="2024"
+                year="2026"
+                project="Provincial Legal Office System"
+                madeAt="Province of Northern Samar"
+                builtWith={["React", "Tailwind CSS", "Laravel", "MySQL"]}
+                about="A system to manage and centralize all records for easier tracking and reporting."
+                link="https://plo.northern-samar.com/"
+                linkName="Visit App"
+              />
+              <ArchiveRow
+                year="2025"
                 project="Centralized Indexing Management System"
                 madeAt="Province of Northern Samar"
                 builtWith={["React", "Tailwind CSS", "Laravel", "MySQL"]}
                 about="A system to manage and centralize all records for easier tracking and reporting."
+                link="https://cims.northern-samar.com/"
+                linkName="Visit App"
               />
               <ArchiveRow
                 year="2024"
-                project="Service Ticketing System"
+                project="IT Services Online Request System"
                 madeAt="Province of Northern Samar"
                 builtWith={["React", "Tailwind CSS", "Laravel", "MySQL"]}
                 about="Tracks service requests from submission to completion for government services."
+                linkName="Visit App"
+                link="https://pgnsmisoservice.northern-samar.com/"
               />
               <ArchiveRow
                 year="2023"
-                project="Pageant Scoring System"
+                project="Event Scoring System"
                 madeAt="Province of Northern Samar"
                 builtWith={["React", "MUI", "Laravel", "MySQL"]}
-                about="Computes and ranks contestants’ scores from various pageant categories."
+                about="Computes and ranks contestants’ scores from various event."
               />
               <ArchiveRow
                 year="2023"
